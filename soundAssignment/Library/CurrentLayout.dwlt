@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1366
     height: 685
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -106,10 +106,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 635
-  m_MinSize: {x: 679, y: 492}
+  m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 77
+  controlID: 1139
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -130,10 +130,10 @@ MonoBehaviour:
     y: 0
     width: 1089
     height: 635
-  m_MinSize: {x: 402, y: 492}
+  m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 78
+  controlID: 1140
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,10 +154,10 @@ MonoBehaviour:
     y: 0
     width: 1089
     height: 364
-  m_MinSize: {x: 402, y: 221}
-  m_MaxSize: {x: 8002, y: 4021}
+  m_MinSize: {x: 406, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 54
+  controlID: 1141
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -176,8 +176,8 @@ MonoBehaviour:
     y: 0
     width: 253
     height: 364
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -209,7 +209,7 @@ MonoBehaviour:
   - {fileID: 15}
   - {fileID: 12}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 2
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -284,9 +284,9 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 251
+    x: 255
     y: 92
-    width: 836
+    width: 832
     height: 343
 --- !u!114 &13
 MonoBehaviour:
@@ -315,10 +315,10 @@ MonoBehaviour:
     width: 251
     height: 343
   m_TreeViewState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 56a60000
-    m_LastClickedID: 42582
-    m_ExpandedIDs: 16adffffccb6ffff16b8ffffbcb8ffffb6b9ffff0ec6ffffacceffff24d9ffff5eddffffc4e5ffff84fbffff000000002aab0000
+    scrollPos: {x: 0, y: 144}
+    m_SelectedIDs: 2acd0000
+    m_LastClickedID: 0
+    m_ExpandedIDs: 7aa7ffff1aa9ffff06b3ffffeebbffffb8bdffff42cdffffd4d9ffffe4e4ffff90e6ffff84fbffff00000000ca510000248c000062c20000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -337,7 +337,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 0}
     m_SearchString: 
   m_ExpandedScenes:
-  - Beach
+  - Castle wireframe
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -368,14 +368,14 @@ MonoBehaviour:
     width: 832
     height: 343
   m_SceneLighting: 1
-  lastFramingTime: 455.25579419184527
+  lastFramingTime: 3271.0993169065314
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 148.41844, y: 31.450224, z: 28.098686}
+    m_Target: {x: -46.61972, y: 5.701599, z: 104.15398}
     speed: 2
-    m_Value: {x: 148.41844, y: 31.450224, z: 28.098686}
+    m_Value: {x: -46.61972, y: 5.701599, z: 104.15398}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -398,13 +398,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.3613314, y: -0.048348367, z: 0.018796086, w: 0.9310045}
+    m_Target: {x: 0.08636508, y: -0.07404383, z: 0.0064827944, w: 0.99350274}
     speed: 2
-    m_Value: {x: 0.3613277, y: -0.04834787, z: 0.018795894, w: 0.930995}
+    m_Value: {x: 0.08636374, y: -0.074042685, z: 0.006482694, w: 0.99348736}
   m_Size:
-    m_Target: 131.24051
+    m_Target: 68.932556
     speed: 2
-    m_Value: 131.24051
+    m_Value: 68.932556
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -530,18 +530,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Mega Fantasy Props Pack/Example Scenes
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Mega Fantasy Props Pack/Example Scenes
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Thomas\Desktop\study\Sound Design and Implementation\assignments\ca1\project\soundAssignment
+  m_LastProjectPath: C:\Users\Thomas\Desktop\study\Sound Design and Implementation\assignments\ca3\repo\Year4SoundAssignment3\soundAssignment
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d42e0000
-    m_LastClickedID: 11988
+    m_SelectedIDs: 26270000
+    m_LastClickedID: 10022
     m_ExpandedIDs: 000000002627000082270000b8290000a02c0000d42e000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -570,7 +570,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000026270000a02c0000d42e0000
+    m_ExpandedIDs: 000000002627000082270000b8290000a02c0000d42e000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -614,7 +614,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
