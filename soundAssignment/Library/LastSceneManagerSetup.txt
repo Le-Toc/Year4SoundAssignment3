@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
+- path: Assets/Mega Fantasy Props Pack/Example Scenes/Castle wireframe.unity
+=======
 - path: Assets/Game/Scenes/Menu.unity
+>>>>>>> 4fefbb0057481b9a78ff2ca612aedfaa268edff8
   isLoaded: 1
   isActive: 1
